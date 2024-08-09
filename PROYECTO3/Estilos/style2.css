@@ -1,0 +1,60 @@
+/* personalizados.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+}
+
+.header_section {
+    margin-bottom: 20px;
+}
+
+.header_section .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.header_section .navbar-nav .nav-link:hover {
+    color: #cccccc;
+}
+
+.header_section .navbar-text {
+    color: #ffffff;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.text-center button {
+    background-color: #28a745;
+    border: none;
+}
+
+.latest-avatars .card,
+.user-avatars .card,
+.user-reviews .card {
+    margin-bottom: 20px;
+}
+
+.latest-avatars .card img,
+.user-avatars .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer_section {
+    background-color: #4d5c42;
+}
+
+.footer_section p {
+    margin: 0;
+}
+
+.footer-links a {
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
