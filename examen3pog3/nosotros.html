@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Metallica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body style="background-color: beige;">
+  <div class="container">
+        <div class="row">
+            <h1 style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                ¡¡¡BLOG DE METALLICA!!!
+                </h1>
+            <div class="col-md-4">
+                
+                <img src="img/Metallica_logo.png" style ="width: 300px; align-items: start;" class="img-thumbnail" alt=" ">
+            </div>
+           
+            <div class="col-md-8 text-end">
+                <a href="https://www.metallica.com" class="btn btn-primary">Metallica Official</a>
+                <a href="https://twitter.com/Metallica" class="btn btn-info">X</a>
+                <a href="https://www.facebook.com/Metallica" class="btn btn-primary">Facebook</a>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-4">
+                <h2>¡¡¡Formulario de Registro!!!</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3">
+                        <label for="genero" class="form-label">Género Favorito</label>
+                        <select class="form-select" id="genero">
+                            <option value="metal">Metal</option>
+                            <option value="rock">Rock</option>
+                            <option value="otros">Otros</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-success">Registrar</button>
+                </form>
+            </div>
+            <div class="col-md-8">
+                <h2></h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/metallica1.avif" class="d-block w-100" alt="Metallica Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/metallica2.jpg" class="d-block w-100" alt="Metallica Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/metallica3.jpg" class="d-block w-100" alt="Metallica Image 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>¡Sobre Metallica!</h2>
+                <p>Metallica es una banda estadounidense de heavy metal originaria de Los Ángeles, California. Formada en 1981, la banda está compuesta actualmente por James Hetfield (voz y guitarra rítmica), Lars Ulrich (batería), Kirk Hammett (guitarra principal), y Robert Trujillo (bajo).</p>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Álbum</th>
+                            <th>Año</th>
+                            <th>Ventas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kill 'Em All</td>
+                            <td>1983</td>
+                            <td>3 millones</td>
+                        </tr>
+                        <tr>
+                            <td>Ride the Lightning</td>
+                            <td>1984</td>
+                            <td>5 millones</td>
+                        </tr>
+                        <tr>
+                            <td>Master of Puppets</td>
+                            <td>1986</td>
+                            <td>6 millones</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ul>
+                    <li>Rock & Roll Hall of Fame</li>
+                    <li>9 premios Grammy</li>
+                    <li>Más de 125 millones de discos vendidos</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>&copy; 2024 Metallica Blog. Todos los derechos reservados. Desarrollado por Josemaría Echeverría.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
